@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+}
+
+.background {
+    background-image: url("background1.jpg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: 0.4rem solid #5F0066;
+    width: 8rem;
+    border-radius: 5%;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    color: #fff;
+    transition: all .07s ease;
+    background: rgba(13, 17, 25, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #19111C;
+    box-shadow: 0 0 1rem #02D8B7;
+}
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #01BEB7;
+}
